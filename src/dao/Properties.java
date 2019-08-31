@@ -1,0 +1,8 @@
+package dao;
+
+public class Properties {
+  url = jdbc:mysql://localhost:3306/tp_sdzee
+  driver = com.mysql.jdbc.Driver
+      nomutilisateur = java
+  motdepasse = SdZ_eE
+}
