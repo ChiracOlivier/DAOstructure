@@ -236,6 +236,9 @@ public final class CreationCommandeForm {
   /*
    * Ajoute un message correspondant au champ spécifié à la map des erreurs.
    */
+  private void setErreur( String champ, String message ) {
+    erreurs.put( champ, message );
+  }
 
   /*
    * Méthode utilitaire qui retourne null si un champ est vide, et son contenu
