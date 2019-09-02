@@ -78,7 +78,8 @@ public class PrechargementFilter implements Filter {
       session.setAttribute( ATT_SESSION_COMMANDES, mapCommandes );
     }
 
-  
+    /* Pour terminer, poursuite de la requête en cours */
+    chain.doFilter( request, res );
   }
 
   public void destroy() {
