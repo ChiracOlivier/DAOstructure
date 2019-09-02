@@ -241,6 +241,7 @@ public final class CreationCommandeForm {
   }
 
   /*
+   *
    * Méthode utilitaire qui retourne null si un champ est vide, et son contenu
    * sinon.
    */
