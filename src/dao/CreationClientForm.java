@@ -322,7 +322,15 @@ public final class CreationClientForm {
       }
     } catch ( Exception e ) {
       throw new FormValidationException( "Erreur lors de l'écriture du fichier sur le disque." );
-   
+    } finally {
+      try {
+        sortie.close();
+      } catch ( IOException ignore ) {
+      }
+      try {
+        entree.close();
+      } catch ( IOException ignore ) {
+      }
     }
   }
 }
