@@ -58,6 +58,7 @@ public class SuppressionClient extends HttpServlet {
   }
 
   /*
+   *
    * Méthode utilitaire qui retourne null si un paramètre est vide, et son
    * contenu sinon.
    */
