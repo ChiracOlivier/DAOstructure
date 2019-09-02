@@ -32,7 +32,12 @@
                     <%-- Simple test de parité sur l'index de parcours, pour alterner la couleur de fond de chaque ligne du tableau. --%>
                     <tr class="${boucle.index % 2 == 0 ? 'pair' : 'impair'}">
                             <%-- Affichage des propriétés du bean Client, qui est stocké en tant que valeur de l'entrée courante de la map --%>
-                       
+                                <td><c:out value="${ mapClients.value.nom }"></c:out></td>
+                                <td><c:out value="${ mapClients.value.prenom }"></c:out></td>
+                                <td><c:out value="${ mapClients.value.adresse }"></c:out></td>
+                                <td><c:out value="${ mapClients.value.telephone }"></c:out></td>
+                                <td><c:out value="${ mapClients.value.email }"></c:out></td>
+                                <td>
                                 <%-- On ne construit et affiche un lien vers l'image que si elle existe. --%>
                             <c:if test="${ !empty mapClients.value.image }">
                                 <c:set var="image"><c:out value="${ mapClients.value.image }"></c:out></c:set>
