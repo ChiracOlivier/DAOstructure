@@ -82,7 +82,10 @@ public class CreationCommande extends HttpServlet {
       if ( commandes == null ) {
         commandes = new HashMap<Long, Commande>();
       }
-     
+      /* Puis ajout de la commande courante dans la map */
+      commandes.put( commande.getId(), commande );
+      /* Et enfin (ré)enregistrement de la map en session */
+      session.setAttribute( SESSION_COMMANDES, commandes );
 
       /* Affichage de la fiche récapitulative */
       this.getServletContext().getRequestDispatcher( VUE_SUCCES ).forward( request, response );
