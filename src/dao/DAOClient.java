@@ -3,7 +3,7 @@ package com.sdzee.tp.dao;
 
 import java.util.List;
 
-import com.sdzee.tp.beans.Client;
+import javabean.Client;
 
 public interface ClientDao {
   void creer( Client client ) throws DAOException;

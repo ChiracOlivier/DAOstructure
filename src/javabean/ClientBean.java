@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.beans;
+package javabean;
 
 import java.io.Serializable;
 

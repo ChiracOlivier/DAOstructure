@@ -15,7 +15,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import com.sdzee.tp.beans.Client;
+import javabean.Client;
 import javabean.Commande;
 import com.sdzee.tp.dao.ClientDao;
 import com.sdzee.tp.dao.CommandeDao;
