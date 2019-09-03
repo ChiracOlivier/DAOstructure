@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.servlets;
+package servlets;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -16,7 +16,7 @@ import com.sdzee.tp.beans.Commande;
 import com.sdzee.tp.dao.ClientDao;
 import com.sdzee.tp.dao.CommandeDao;
 import com.sdzee.tp.dao.DAOFactory;
-import com.sdzee.tp.forms.CreationCommandeForm;
+import javabean.CreationCommandeForm;
 
 public class CreationCommande extends HttpServlet {
   public static final String CONF_DAO_FACTORY      = "daofactory";

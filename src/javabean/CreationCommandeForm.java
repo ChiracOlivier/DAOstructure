@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.forms;
+package javabean;
 
 import java.util.HashMap;
 import java.util.Map;
