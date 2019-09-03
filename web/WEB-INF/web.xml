@@ -50,7 +50,7 @@
   </servlet>
   <servlet>
     <servlet-name>SuppressionClient</servlet-name>
-    <servlet-class>com.sdzee.tp.servlets.SuppressionClient</servlet-class>
+    <servlet-class>servlets.SuppressionClient</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>CreationCommande</servlet-name>
