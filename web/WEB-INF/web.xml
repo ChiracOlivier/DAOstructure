@@ -72,7 +72,7 @@
   </servlet>
   <servlet>
     <servlet-name>SuppressionCommande</servlet-name>
-    <servlet-class>com.sdzee.tp.servlets.SuppressionCommande</servlet-class>
+    <servlet-class>servlets.SuppressionCommande</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Image</servlet-name>
