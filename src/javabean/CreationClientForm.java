@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.forms;
+package javabean;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

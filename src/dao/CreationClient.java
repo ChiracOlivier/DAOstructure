@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 import com.sdzee.tp.beans.Client;
 import com.sdzee.tp.dao.ClientDao;
 import com.sdzee.tp.dao.DAOFactory;
-import com.sdzee.tp.forms.CreationClientForm;
+import javabean.CreationClientForm;
 
 public class CreationClient extends HttpServlet {
   public static final String CONF_DAO_FACTORY = "daofactory";
