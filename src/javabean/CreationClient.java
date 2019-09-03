@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.servlets;
+package javabean;
 
 import java.io.IOException;
 import java.util.HashMap;
