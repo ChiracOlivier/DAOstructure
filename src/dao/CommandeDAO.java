@@ -3,7 +3,7 @@ package com.sdzee.tp.dao;
 
 import java.util.List;
 
-import com.sdzee.tp.beans.Commande;
+import javabean.Commande;
 
 public interface CommandeDao {
   void creer( Commande commande ) throws DAOException;

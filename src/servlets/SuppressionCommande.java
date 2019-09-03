@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.sdzee.tp.beans.Commande;
+import javabean.Commande;
 import com.sdzee.tp.dao.CommandeDao;
 import com.sdzee.tp.dao.DAOException;
 import com.sdzee.tp.dao.DAOFactory;

@@ -10,7 +10,6 @@ import javax.servlet.http.HttpSession;
 import org.joda.time.DateTime;
 
 import com.sdzee.tp.beans.Client;
-import com.sdzee.tp.beans.Commande;
 import com.sdzee.tp.dao.ClientDao;
 import com.sdzee.tp.dao.CommandeDao;
 import com.sdzee.tp.dao.DAOException;

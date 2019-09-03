@@ -14,7 +14,7 @@ import java.util.List;
 
 import org.joda.time.DateTime;
 
-import com.sdzee.tp.beans.Commande;
+import javabean.Commande;
 
 public class CommandeDaoImpl implements CommandeDao {
 
