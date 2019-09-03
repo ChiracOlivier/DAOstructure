@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.filters;
+package servlets;
 
 import java.io.IOException;
 import java.util.HashMap;

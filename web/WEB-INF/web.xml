@@ -19,7 +19,7 @@
 
   <filter>
     <filter-name>PrechargementFilter</filter-name>
-    <filter-class>com.sdzee.tp.filters.PrechargementFilter</filter-class>
+    <filter-class>servlets.PrechargementFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>PrechargementFilter</filter-name>
