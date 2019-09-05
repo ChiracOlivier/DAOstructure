@@ -78,7 +78,7 @@
     <servlet-name>Image</servlet-name>
     <servlet-class>com.sdzee.tp.servlets.Image</servlet-class>
     <init-param>
-      <param-name>chemin</param-name>
+      <param-name>cheminFichierImg</param-name>
       <param-value>/fichiers/images/</param-value>
     </init-param>
   </servlet>
