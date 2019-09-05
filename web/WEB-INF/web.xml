@@ -106,7 +106,7 @@
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>SuppressionCommande</servlet-name>
-    <url-pattern>/javabean/suppressionCommande</url-pattern>
+    <url-pattern>/suppressionCommande</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>Image</servlet-name>
