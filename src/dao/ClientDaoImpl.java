@@ -148,8 +148,7 @@ public class ClientDaoImpl implements ClientDao {
    */
   private static Client map( ResultSet resultSet ) throws SQLException {
     Client client = new Client();
-    client.setId( resultSet.getLong( "id" ) );
-    client.setNom( resultSet.getString( "nom" ) );
+   
     client.setPrenom( resultSet.getString( "prenom" ) );
     client.setAdresse( resultSet.getString( "adresse" ) );
     client.setTelephone( resultSet.getString( "telephone" ) );
