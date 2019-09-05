@@ -129,9 +129,7 @@ public class ClientDaoImpl implements ClientDao {
       preparedStatement = initialisationRequetePreparee( connexion, sql, false, objets );
       resultSet = preparedStatement.executeQuery();
       /* Parcours de la ligne de données retournée dans le ResultSet */
-      if ( resultSet.next() ) {
-        client = map( resultSet );
-      }
+     
     } catch ( SQLException e ) {
       throw new DAOException( e );
     } finally {
@@ -148,7 +146,8 @@ public class ClientDaoImpl implements ClientDao {
    */
   private static Client map( ResultSet resultSet ) throws SQLException {
     Client client = new Client();
-   
+    client.setId( resultSet.getLong( "id" ) );
+    client.setNom( resultSet.getString( "nom" ) );
     client.setPrenom( resultSet.getString( "prenom" ) );
     client.setAdresse( resultSet.getString( "adresse" ) );
     client.setTelephone( resultSet.getString( "telephone" ) );
