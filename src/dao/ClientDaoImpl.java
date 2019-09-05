@@ -129,7 +129,9 @@ public class ClientDaoImpl implements ClientDao {
       preparedStatement = initialisationRequetePreparee( connexion, sql, false, objets );
       resultSet = preparedStatement.executeQuery();
       /* Parcours de la ligne de données retournée dans le ResultSet */
-     
+      if ( resultSet.next() ) {
+        client = map( resultSet );
+      }
     } catch ( SQLException e ) {
       throw new DAOException( e );
     } finally {
