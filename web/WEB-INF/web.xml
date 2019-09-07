@@ -32,7 +32,7 @@
 
   <servlet>
     <servlet-name>CreationClient</servlet-name>
-    <servlet-class>javabean.CreationClient</servlet-class>
+    <servlet-class>servlets.CreationClient</servlet-class>
     <init-param>
       <param-name>chemin</param-name>
       <param-value>/fichiers/images/</param-value>
