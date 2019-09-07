@@ -1,5 +1,5 @@
 
-package servletsClient;
+package servletsCommande;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -54,7 +54,7 @@
   </servlet>
   <servlet>
     <servlet-name>CreationCommande</servlet-name>
-    <servlet-class>servletsClient.CreationCommande</servlet-class>
+    <servlet-class>servletsCommande.CreationCommande</servlet-class>
     <init-param>
       <param-name>chemin</param-name>
       <param-value>/fichiers/images/</param-value>
