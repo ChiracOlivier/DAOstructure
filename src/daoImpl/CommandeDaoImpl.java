@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.dao;
+package daoImpl;
 
 import static com.sdzee.tp.dao.DAOUtilitaire.fermeturesSilencieuses;
 import static com.sdzee.tp.dao.DAOUtilitaire.initialisationRequetePreparee;
