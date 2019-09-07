@@ -19,7 +19,7 @@
 
   <filter>
     <filter-name>PrechargementFilter</filter-name>
-    <filter-class>servletsClient.PrechargementFilter</filter-class>
+    <filter-class>filter.PrechargementFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>PrechargementFilter</filter-name>
