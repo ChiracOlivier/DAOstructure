@@ -19,7 +19,7 @@ import javabean.Client;
 import javabean.Commande;
 import com.sdzee.tp.dao.ClientDao;
 import com.sdzee.tp.dao.CommandeDao;
-import com.sdzee.tp.dao.DAOFactory;
+import dao.DAOFactory;
 
 public class PrechargementFilter implements Filter {
   public static final String CONF_DAO_FACTORY      = "daofactory";
