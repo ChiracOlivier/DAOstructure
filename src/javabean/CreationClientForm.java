@@ -15,8 +15,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.Part;
 
-import com.sdzee.tp.dao.ClientDao;
-import com.sdzee.tp.dao.DAOException;
 
 import eu.medsea.mimeutil.MimeUtil;
 
