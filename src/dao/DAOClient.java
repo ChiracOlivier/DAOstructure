@@ -1,5 +1,5 @@
 
-package com.sdzee.tp.dao;
+package 
 
 import java.util.List;
 
