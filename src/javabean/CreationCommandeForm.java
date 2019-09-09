@@ -9,9 +9,6 @@ import javax.servlet.http.HttpSession;
 
 import org.joda.time.DateTime;
 
-import com.sdzee.tp.dao.ClientDao;
-import com.sdzee.tp.dao.CommandeDao;
-import com.sdzee.tp.dao.DAOException;
 
 public final class CreationCommandeForm {
   private static final String CHAMP_CHOIX_CLIENT     = "choixNouveauClient";
