@@ -1,9 +1,6 @@
 
 package daoImpl;
 
-import static com.sdzee.tp.dao.DAOUtilitaire.fermeturesSilencieuses;
-import static com.sdzee.tp.dao.DAOUtilitaire.initialisationRequetePreparee;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
