@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import javabean.Client;
-import com.sdzee.tp.dao.ClientDao;
+
 
 import com.sdzee.tp.dao.DAOFactory;
 
