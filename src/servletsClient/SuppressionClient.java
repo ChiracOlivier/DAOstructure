@@ -17,11 +17,11 @@ import javabean.Client;
 import com.sdzee.tp.dao.DAOFactory;
 
 public class SuppressionClient extends HttpServlet {
-  public static final String CONF_DAO_FACTORY = "daofactory";
-  public static final String PARAM_ID_CLIENT  = "idClient";
-  public static final String SESSION_CLIENTS  = "clients";
+  private static final String CONF_DAO_FACTORY = "daofactory";
+  private static final String PARAM_ID_CLIENT  = "idClient";
+  private static final String SESSION_CLIENTS  = "clients";
 
-  public static final String VUE              = "/listeClients";
+  private static final String VUE              = "/listeClients";
 
   private ClientDao          clientDao;
 
