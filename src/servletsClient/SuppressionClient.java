@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 
 import javabean.Client;
 import com.sdzee.tp.dao.ClientDao;
-import com.sdzee.tp.dao.DAOException;
+
 import com.sdzee.tp.dao.DAOFactory;
 
 public class SuppressionClient extends HttpServlet {
