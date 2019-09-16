@@ -21,10 +21,10 @@ public class CreationClient extends HttpServlet {
   public static final String CHEMIN           = "chemin";
   public static final String ATT_CLIENT       = "client";
   public static final String ATT_FORM         = "form";
-  public static final String SESSION_CLIENTS  = "clients";
+  private static final String SESSION_CLIENTS  = "clients";
 
-  public static final String VUE_SUCCES       = "/WEB-INF/afficherClient.jsp";
-  public static final String VUE_FORM         = "/WEB-INF/creerClient.jsp";
+  private static final String VUE_SUCCES       = "/WEB-INF/afficherClient.jsp";
+  private static final String VUE_FORM         = "/WEB-INF/creerClient.jsp";
 
   private ClientDao          clientDao;
 
